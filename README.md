@@ -1,4 +1,4 @@
-# ngx-international-phone-number
+# ngx-intl-phn-num
 A simple international telephone number input. Allows you to create a phone number field with country dropdown. 
 
 This is re-written version (with enhancement) of [ng4-intl-phone](https://github.com/kondi0/ng4-intl-phone/). So credit should go to [kondi0](https://github.com/kondi0).
@@ -8,12 +8,12 @@ This is re-written version (with enhancement) of [ng4-intl-phone](https://github
 To install this library, run:
 
 ```bash
-$ npm install ngx-international-phone-number --save
+$ npm install intl-phn-num --save
 ```
 
 ## Consuming your library
 
-Once you have installed it you can import `InternationalPhoneNumberModule` from `ngx-international-phone-number` in any application module. E.g.
+Once you have installed it you can import `InternationalPhoneNumberModule` from `ngx-intl-phn-num` in any application module. E.g.
 
 ```typescript
 import { BrowserModule } from '@angular/platform-browser';
@@ -22,7 +22,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { InternationalPhoneNumberModule } from 'ngx-international-phone-number';
+import { InternationalPhoneNumberModule } from 'ngx-intl-phn-num';
 
 @NgModule({
   declarations: [
