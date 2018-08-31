@@ -8,7 +8,7 @@ This is re-written version (with enhancement) of [ng4-intl-phone](https://github
 To install this library, run:
 
 ```bash
-$ npm install intl-phn-num --save
+$ npm install ngx-intl-phn-num --save
 ```
 
 ## Consuming your library
@@ -40,12 +40,12 @@ import { InternationalPhoneNumberModule } from 'ngx-intl-phn-num';
 export class AppModule { }
 ```
 
-Once it is imported, you can use `international-phone-number`:
+Once it is imported, you can use `ngx-intl-phn-num`:
 
 ```xml
 <!-- app.component.html -->
 <form name="sample-form" (ngSubmit)="submit()" #f="ngForm">
- <international-phone-number [(ngModel)]="model.phone_number" placeholder="Enter phone number" [maxlength]="20" [defaultCountry]="'in'" [required]="true" #phone_number="ngModel" name="phone_number"></international-phone-number>
+ <ngx-intl-phn-num [(ngModel)]="model.phone_number" placeholder="Enter phone number" [maxlength]="20" [defaultCountry]="'in'" [required]="true" #phone_number="ngModel" name="phone_number"></ngx-intl-phn-num>
 
   <div *ngIf="f.submitted && !phone_number.valid" class="help-block">Phone number is required and should be valid</div>
   <button type="submit">Submit</button>
