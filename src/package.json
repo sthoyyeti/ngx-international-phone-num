@@ -1,25 +1,25 @@
 {
-    "name": "ngx-intl-phn-num",
-    "version": "0.1.3",
+    "name": "ngx-international-phone-num",
+    "version": "0.0.2",
     "repository": {
         "type": "git",
-        "url": "https://github.com/sthoyyeti/ngx-intl-phn-num"
+        "url": "https://github.com/sthoyyeti/ngx-international-phone-num"
     },
     "author": {
-        "name": "Nikhil Navadiya",
-        "email": "nikhil.navadiya@gmail.com"
+        "name": "Srinivasan",
+        "email": "s.thoyyeti@gmail.com"
     },
     "keywords": [
         "angular"
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/sthoyyeti/ngx-intl-phn-num/issues"
+        "url": "https://github.com/sthoyyeti/ngx-international-phone-num/issues"
     },
-    "main": "ngx-intl-phn-num.umd.js",
+    "main": "ngx-international-phone-number.umd.js",
     "module": "index.js",
     "jsnext:main": "index.js",
-    "typings": "ngx-intl-phn-num.d.ts",
+    "typings": "ngx-international-phone-number.d.ts",
     "peerDependencies": {
         "@angular/core": "^4.0.0",
         "@angular/forms": "^4.0.0",

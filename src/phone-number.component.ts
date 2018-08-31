@@ -21,7 +21,7 @@ const VALIDATOR = {
 
 @Component({
     moduleId: module.id,
-    selector: 'intl-phn-num',
+    selector: 'international-phone-number',
     templateUrl: './phone-number.component.html',
     styleUrls: [
         './phone-number.component.scss',
