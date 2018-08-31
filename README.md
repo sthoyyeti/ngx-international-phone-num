@@ -40,12 +40,12 @@ import { InternationalPhoneNumberModule } from 'ngx-intl-phn-num';
 export class AppModule { }
 ```
 
-Once it is imported, you can use `ngx-intl-phn-num`:
+Once it is imported, you can use `intl-phn-num`:
 
 ```xml
 <!-- app.component.html -->
 <form name="sample-form" (ngSubmit)="submit()" #f="ngForm">
- <ngx-intl-phn-num [(ngModel)]="model.phone_number" placeholder="Enter phone number" [maxlength]="20" [defaultCountry]="'in'" [required]="true" #phone_number="ngModel" name="phone_number"></ngx-intl-phn-num>
+ <intl-phn-num [(ngModel)]="model.phone_number" placeholder="Enter phone number" [maxlength]="20" [defaultCountry]="'in'" [required]="true" #phone_number="ngModel" name="phone_number"></intl-phn-num>
 
   <div *ngIf="f.submitted && !phone_number.valid" class="help-block">Phone number is required and should be valid</div>
   <button type="submit">Submit</button>
@@ -64,7 +64,8 @@ If you are getting error "Can't resolve 'google-libphonenumber'" while building 
 
 
 ## Authors
-   
+    * Original Author: kondi0
+    * Author: sthoyyeti 
 ## License
 
 MIT
