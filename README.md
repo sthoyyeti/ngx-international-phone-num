@@ -64,8 +64,7 @@ If you are getting error "Can't resolve 'google-libphonenumber'" while building 
 
 
 ## Authors
-    * Original Author: kondi0
-    * Author: nikhiln 
+   
 ## License
 
 MIT
